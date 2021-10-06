@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<HTML LANG = "en">
+<HEAD>
+<META CHARSET = "UTF-8">
+<TITLE>CTC</TITLE>
+</head>
+<body>
+    <center>
+        <div style="background-color:powderblue;">
+        <P style="font-family: impact;font-size: 40px;color: red">----WELCOME TO CHENNAI TREKKING CLUB ----</P>
+
+        <P><B>
+            HELLO - नमस्ते - வணக்கம்
+            Welcome to CTC - CTC आपका स्वागत है
+        </B></P>
+            <h3><br>*PLEASE REGISTER TO JOIN CTC</br>
+            *PLEASE ENTER YES/NO</h3>
+
+        <div>
+        <form class="pure-form" method="POST" action="/">
+            <label>ENTER YOUR NAME:</label>
+            <input type="text" name="name">
+            <br>
+            <label>DO YOU LIKE ADVENTURE: </label>
+            <input type="text" name="trek">
+            </br>
+            <label>DO YOU HAVE EXPERIENCE IN TREKKING/ADVENTURES: </label>
+            <input type="text" name="exp">
+            <br>
+            <label>HAVE YOU VOLUNTEERED: </label>
+            <input type="text"  name="done">
+            </br>
+            <label>HAVE YOU WENT TO FORESTS AND HILLS:</label>
+            <input type="text" name="forest">
+            <br>
+            <label>DO YOU KNOW SWIMMING:</label>
+            <input type="text" name="swim">
+            </br>
+            <label>DO YOU HAVE ANY MEDICAL ISSUES:</label>
+            <input type="text" name="medi">
+            <br>
+            <button type="submit" class="pure-button">SUBMIT</button>
+            </br>
+        </form>
+        </div>
+        <div>
+            {% if a %}
+                <p><B>HELLO MR.{{ a }},</B></p>
+                <p><B>{{ r }}</B> </p>
+            {% endif %}
+        </div>
+            <iframe width="400" height="350" src="https://www.youtube.com/embed/k2FsQ4M6KcM?controls=0&loop=1"></iframe>
+</HEAD>
+        </div>
+
+    </center>
+</body>
+</HTML>
